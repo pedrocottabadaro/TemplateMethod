@@ -12,7 +12,7 @@ class M4A1Test {
     }
 
     @Test
-    void deveRetonarReprovado() {
+    void deveRetonarNaoRegistrada() {
         M4A1 arma = new M4A1();
         arma.setNome("M4A1-S");
         arma.setId(2);

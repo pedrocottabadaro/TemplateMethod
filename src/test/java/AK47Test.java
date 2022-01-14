@@ -12,7 +12,7 @@ class AK47Test {
         }
 
         @Test
-        void deveRetonarReprovado() {
+        void deveRetonarNaoRegistrada() {
             AK47 arma = new AK47();
             arma.setNome("KLASHNIKOV Extendida");
             arma.setId(20);
